@@ -94,7 +94,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 90px;
 }
 
 .nav-logo h2 {
@@ -103,20 +103,22 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-right: 200px;
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 2rem;
+    gap: 1.8rem;
 }
 
 .nav-link {
     text-decoration: none;
     color: var(--text-primary);
     font-weight: 500;
+    font-size: 1.2rem;
     transition: var(--transition);
     position: relative;
 }
@@ -208,21 +210,21 @@ body {
 }
 
 .hero-title {
-    font-size: 4.5rem;
+    font-size: 6rem;
     font-weight: 800;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
     opacity: 0.9;
 }
 
 .hero-tagline {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     opacity: 0.8;
     min-height: 30px;
